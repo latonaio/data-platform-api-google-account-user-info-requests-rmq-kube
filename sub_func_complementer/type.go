@@ -23,9 +23,9 @@ type SDC struct {
 }
 
 type Message struct {
-	GoogleAccountAuthKey *[]GoogleAccountAuthKey `json:"GoogleAccountAuthKey"`
+	GoogleAccountUserInfo *[]GoogleAccountUserInfo `json:"GoogleAccountUserInfo"`
 }
 
-type GoogleAccountAuthKey struct {
+type GoogleAccountUserInfo struct {
 	URL string `json:"URL"`
 }
